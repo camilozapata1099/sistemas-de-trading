@@ -24,7 +24,9 @@ Nota: los nombres de los sistemas se usan para crear los archivos .log donde se 
 
 -En caso de buscar cambios en indicadores: recordar que si usamos el índice i corresponde al día actual en el que va la evaluación del sistema y el índice i-1 es el día anterior.
 
--Los datos e indicadores que podemos usar para establecer las condiciones de compra y venta (estamos en un bucle foreach var empresa in empresas)
+-Los datos e indicadores que podemos usar para establecer las condiciones de compra y venta:
+
+(La evaluación se realiza en un bucle foreach var empresa in empresas)
 
 empresa.Apertura[]
 
