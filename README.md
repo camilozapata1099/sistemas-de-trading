@@ -2,7 +2,7 @@
 
 Este programa sirve para proponer y evaluar sistemas de trading automáticos.
 El programa carga los datos de 30 empresas del Dow Jones para un periodo desde el 1 de enero de 2010 hasta el 30 de diciembre del 2019.
-después calcula los indicadores técnicos EMA5, EMA10, EMA20, EMA50, MACD, estocástico, RSI y ADX.
+Después calcula los indicadores técnicos EMA5, EMA10, EMA20, EMA50, MACD, estocástico, RSI y ADX.
 Por último evalúa el desempeño del sistema simulando las compras realizadas en función de las condiciones de compra y de venta y genera un archivo .log con los resultados.
 
 
@@ -10,7 +10,7 @@ Por último evalúa el desempeño del sistema simulando las compras realizadas e
 
 -Cambiar la ruta del streamReader en el método CargarDatos() de la clase Empresa de acuerdo a la ruta en donde ubicas el proyecto.
 
--Cambiar la ruta del streamWriter en el método CImprimirResultados() de las clases SistemaDay y SistemaSwing de acuerdo a la ruta en donde ubicas el proyecto.
+-Cambiar la ruta del streamWriter en el método ImprimirResultados() de las clases SistemaDay y SistemaSwing de acuerdo a la ruta en donde ubicas el proyecto.
 
 -Para un sistema de day trading (compra-venta en el mismo día) editar el nombre, la descripción y la condición de compra en la clase SistemaDay.
 
